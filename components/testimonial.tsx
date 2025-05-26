@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="bg-[#232629] text-black py-12 px-4">
+    <section className="bg-black text-black py-12 px-4">
       {/* Top Border */}
       <div className="border-t-4 border-review w-full mb-8 px-4"></div>
 
@@ -14,7 +14,7 @@ const Testimonial = () => {
       {/* Content Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-6xl mx-auto">
         {/* Testimonial 1 */}
-        <div className="bg-white p-6 rounded-md shadow-md">
+        <div className="bg-[#e3dede] p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed italic mb-4">
             "Opening with a powerful and unsettling moment,{" "}
             <span className="font-semibold">Beyond Reach Point Zero</span> is
@@ -35,7 +35,7 @@ const Testimonial = () => {
         </div>
 
         {/* Testimonial 2 */}
-        <div className="bg-white p-6 rounded-md shadow-md">
+        <div className="bg-[#e3dede] p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed mb-4">
             "Sameer Hirsi. was once a devoted church member and respected figure
             in his community. In{" "}
@@ -59,7 +59,7 @@ const Testimonial = () => {
         </div>
 
         {/* Testimonial 3 */}
-        <div className="bg-white p-6 rounded-md shadow-md">
+        <div className="bg-[#e3dede] p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed italic mb-4">
             "<span className="font-semibold">Beyond Reach Point Zero</span>{" "}
             captures the personal story of an individual confronting
@@ -81,7 +81,7 @@ const Testimonial = () => {
         </div>
 
         {/* Testimonial 4 */}
-        <div className="bg-white p-6 rounded-md shadow-md">
+        <div className="bg-[#e3dede] p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed mb-4">
             "Growing up, I knew Dwight had deep roots in the church—but I never
             understood the full weight of his story until he shared it in{" "}

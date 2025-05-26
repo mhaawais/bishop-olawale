@@ -38,7 +38,7 @@ const Footer = () => {
         {/* Logo + Heading */}
         <a href="/" className="flex items-center space-x-3 mb-6">
           <Image
-            src="/assets/logo/2.JPG"
+            src="/assets/logo/1.png"
             alt="Logo"
             width={45}
             height={45}
@@ -93,13 +93,13 @@ const Footer = () => {
                   href="/allbooks/book2"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  ROCK ON
+                  BEAT YOUR YESTERDAY
                 </a>
                 <a
                   href="/allbooks/book3"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  Wisdom From A Woman
+                  BEAT YOUR YESTERDAY
                 </a>
                 {/* <a
                   href="/allbooks/book4"
@@ -118,14 +118,14 @@ const Footer = () => {
             AUTHOR
           </a>
           <a
-            href="/blog"
+            href="/blogs"
             className="hover:text-myred w-full text-center md:w-auto"
           >
             BLOG
           </a>
-          {/* <a href="/contactus" className="hover:text-myred w-full text-center md:w-auto">
+          <a href="/contactus" className="hover:text-myred w-full text-center md:w-auto">
             CONTACT US
-          </a> */}
+          </a>
         </nav>
 
         {/* Horizontal line under navigation */}
@@ -136,26 +136,26 @@ const Footer = () => {
         {/* Author Bio Section */}
         <div className="w-full mt-8 text-white text-center px-4 md:px-8 lg:px-20">
           <h2 className="text-xl md:text-2xl underline font-semibold text-myred mb-4">
-            CHARLES MUTHUI (DR. D)
+            SAMEER HIRSI 
           </h2>
           <p className="text-base md:text-lg font-medium mb-4">
             WRITER, DREAMER, DAD ON A MISSION..
           </p>
           <p className="text-sm md:text-base leading-relaxed">
-            Charles Muthui, better known as Dr. D, is the voice behind some of
+            Sameer Hirsi is the voice behind some of
             the most powerful real-life storytelling today. From animated
-            picture books created with his daughter (Rock On), to heartfelt
+            picture books created with his daughter (Beat Your Yesterday), to heartfelt
             letters to men (Say Your Say as a Man), and now a life-shifting
-            personal manifesto (Beat Your Yesterday), Dr. D writes from the
+            personal manifesto (Beat Your Yesterday), Sameer writes from the
             soul, and always with purpose.
           </p>
           <p className="text-sm md:text-base leading-relaxed mt-4">
-            A self-made writer, speaker, and motivator, Charles turns everyday
+            A self-made writer, speaker, and motivator, Sameer turns everyday
             struggles into life lessons that uplift, empower, and challenge you
             to become your best self. His words don’t just inspire they awaken.
             He lives in the U.S., but his roots, heart, and mission remain
             grounded in family, faith, and the fearless pursuit of legacy.
-            Because Dr. D doesn’t just write books he writes blueprints for
+            Because Sameer doesn’t just write books he writes blueprints for
             becoming unstoppable, unshaken, and unapologetically you.
           </p>
           {/* <p className="text-sm md:text-base leading-relaxed mt-4">

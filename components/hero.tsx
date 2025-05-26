@@ -17,7 +17,7 @@ const Hero = () => {
 
           <p className="text-sm md:text-base text-gray-200 leading-relaxed mb-5 max-w-xl mx-auto md:mx-0">
             In <strong>Beyond Reach Point Zero</strong>, Sameer Hirsi — known to
-            many as Dr. D — offers a bold, deeply personal, and unapologetically
+            offers a bold, deeply personal, and unapologetically
             honest reflection on resilience, growth, and self-belief. This isn’t
             a sugar-coated self-help guide. It’s a journey through the mess, the
             mistakes, and the miracles of a life still unfolding.
