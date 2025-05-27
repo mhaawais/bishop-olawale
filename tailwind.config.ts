@@ -13,6 +13,10 @@ const config: Config = {
           "0%": { transform: "translateX(-100%)", opacity: "0" },
           "100%": { transform: "translateX(0)", opacity: "1" },
         },
+        slideInRight: {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
         fadeUp: {
           "0%": { transform: "translateY(20px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
@@ -26,6 +30,7 @@ const config: Config = {
         slideIn: "slideIn 0.6s ease-out forwards",
         fadeUp: "fadeUp 0.5s ease-out forwards",
         fadeInUp: "fadeInUp 0.8s ease-out forwards",
+        slideInRight: "slideInRight 0.6s ease-out forwards",
       },
       fontFamily: {
         custom: ["MyCustomFont", "sans-serif"],

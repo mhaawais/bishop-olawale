@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="w-full md:w-1/2 flex justify-center animate-slideIn">
+        <div className="w-full md:w-1/2 flex justify-center animate-slideInRight">
           <Image
             src="/assets/images/E-book.JPG"
             alt="Book Cover"
