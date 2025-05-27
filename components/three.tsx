@@ -2,8 +2,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Metadata } from 'next';
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
+//import { Metadata } from 'next';
 // export const metadata: Metadata = {
 //   title: "Books Collection - Marry Pat Uzoma",
 //   description: "Books by Mary Pat Mbamah Uzoma - Explore her inspiring collection, including 'Misplaced Trust and the Power of Forgiveness.",
@@ -17,9 +19,18 @@ const Three = () => {
     // { src: '/assets/images/building1.jpg', link: '/allbooks/book4' },
   ];
 
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (inView) setHasAnimated(true);
+  }, [inView]);
+
   return (
     <section className="bg-black py-3 px-8">
-      <div className="max-w-5xl mx-auto -mt-4 -mb-4">
+      <div ref={ref} className={`max-w-5xl mx-auto -mt-4 -mb-4 ${
+            hasAnimated ? 'animate-slideIn' : 'opacity-0'
+          }`}>
         <h2 className="text-white text-4xl font-bold my-2 border-b-4 border-myred pb-3 w-fit mx-auto">
           BOOKS
         </h2>

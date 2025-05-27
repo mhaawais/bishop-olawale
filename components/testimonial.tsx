@@ -1,8 +1,21 @@
+'use client';
 import React from "react";
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const Testimonial = () => {
+
+   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+    const [hasAnimated, setHasAnimated] = useState(false);
+  
+    useEffect(() => {
+      if (inView) setHasAnimated(true);
+    }, [inView]);
+
   return (
-    <section className="bg-black text-black py-12 px-4">
+    <section ref={ref} className={`bg-black text-black py-12 px-4 transition-all duration-700 ease-out ${
+            hasAnimated ? 'animate-slideIn' : 'opacity-0'
+          }` }>
       {/* Top Border */}
       <div className="border-t-4 border-review w-full mb-8 px-4"></div>
 
@@ -12,7 +25,7 @@ const Testimonial = () => {
       </h2>
 
       {/* Content Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl mx-auto">
         {/* Testimonial 1 */}
         <div className="bg-[#e3dede] p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed italic mb-4">

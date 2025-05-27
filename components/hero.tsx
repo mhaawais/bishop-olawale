@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="bg-black text-white py-6 md:py-10">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-24 flex flex-col-reverse md:flex-row items-center gap-6 md:gap-12">
         {/* Text Content */}
-        <div className="w-full md:w-1/2 mb-6 md:mb-0 text-center md:text-left px-2">
+        <div className="w-full md:w-1/2 mb-6 md:mb-0 text-center md:text-left px-2 animate-slideIn">
           <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-myred mb-2">
             OUT NOW —
           </h2>
@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center animate-slideIn">
           <Image
             src="/assets/images/E-book.JPG"
             alt="Book Cover"

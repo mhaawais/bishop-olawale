@@ -197,10 +197,10 @@ const ContactUsClient = () => {
           <div className="mt-8 text-sm text-gray-400">
             Or email me at{" "}
             <a
-              href="mailto:info@marypeeofficial.com"
+              href="mailto:info@sameerhirsi.com"
               className="text-myred hover:underline"
             >
-              info@marypeeofficial.com
+              info@sameerhirsi.com
             </a>
           </div>
         </div>
