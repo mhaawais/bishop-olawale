@@ -51,7 +51,7 @@ const Testimonial = () => {
         {/* Testimonial 2 */}
         {/* <div className="bg-[#e3dede] p-6 rounded-md shadow-md"> */}
           <div ref={ref} className={`bg-[#e3dede] p-6 rounded-md shadow-md ${
-           hasAnimated ? 'animate-slideInRight' : 'opacity-0'
+           hasAnimated ? 'animate-slideIn' : 'opacity-0'
           } `}>
           <p className="text-lg leading-relaxed mb-4">
             "Sameer Hirsi. was once a devoted church member and respected figure
@@ -78,7 +78,7 @@ const Testimonial = () => {
         {/* Testimonial 3 */}
         {/* <div className="bg-[#e3dede] p-6 rounded-md shadow-md"> */}
         <div ref={ref} className={`bg-[#e3dede] p-6 rounded-md shadow-md ${
-         hasAnimated ? 'animate-slideIn' : 'opacity-0'
+         hasAnimated ? 'animate-slideInRight' : 'opacity-0'
         } `}>
           <p className="text-lg leading-relaxed italic mb-4">
             "<span className="font-semibold">Beyond Reach Point Zero</span>{" "}
