@@ -87,19 +87,19 @@ const Footer = () => {
                   href="/allbooks/book1"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  BEAT YOUR YESTERDAY
+                  BEYOND REACH POINT ZERO
                 </a>
                 <a
                   href="/allbooks/book2"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  BEAT YOUR YESTERDAY
+                  BEYOND REACH POINT ZERO
                 </a>
                 <a
                   href="/allbooks/book3"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  BEAT YOUR YESTERDAY
+                  BEYOND REACH POINT ZERO
                 </a>
                 {/* <a
                   href="/allbooks/book4"

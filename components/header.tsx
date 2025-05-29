@@ -111,9 +111,9 @@ const Header = () => {
                   } transform transition-all duration-300 ease-in-out md:absolute left-0 mt-2 bg-black md:shadow-lg shadow-md rounded-sm w-full md:w-64 z-50 border border-white border-solid`}
                 >
                   {[
-                    { title: "BEAT YOUR YESTERDAY", link: "/allbooks/book1" },
-                    { title: "BEAT YOUR YESTERDAY", link: "/allbooks/book2" },
-                    { title: "BEAT YOUR YESTERDAY", link: "/allbooks/book3" },
+                    { title: "BEYOND REACH POINT ZERO", link: "/allbooks/book1" },
+                    { title: "BEYOND REACH POINT ZERO", link: "/allbooks/book2" },
+                    { title: "BEYOND REACH POINT ZERO", link: "/allbooks/book3" },
                     // { title: "Building A Functional Home", link: "/allbooks/book4" },
                   ].map((book, i) => (
                     <li key={i}>

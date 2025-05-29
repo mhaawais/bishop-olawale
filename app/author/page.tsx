@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: "Author - Sameer Hirsi", 
-  description: "Learn more about Charles Muthui (DR. D), author of 'Beat Your Yesterday' Discover her journey of mission, strength, and purpose.",
+  description: "Learn more about Sameer Hirsi, author of 'Beyond Reach Point Zero', Discover her journey of mission, strength, and purpose.",
 };
 
 const Author = () => {
