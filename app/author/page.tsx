@@ -60,14 +60,15 @@ const Author = () => {
               </h2>
               <div className="text-white text-base md:text-lg space-y-6 leading-relaxed">
                 <p className="tracking-tight">
-                  Sameer Hirsi is more than just a writer he’s a storyteller, motivator, philosopher, and devoted family man. Born with a passion for expression and raised with a mind that questions everything, Charles began writing as a teenager, crafting entire worlds with his imagination. Today, his words resonate with men seeking purpose, children learning through joy, and anyone searching for truth in a noisy world.
+                  <b>Sameer Hirsi</b> is a rising voice in the world of mystery and thriller fiction. Born in Somalia and raised in the quiet village of Qoryooley, Sameer now lives in Seattle, Washington, where he continues to write stories that explore the hidden depths of human nature and the unexpected turns life can take. At just 20 years old, and entering his senior year of high school this fall, Sameer is already carving a place for himself in the literary world with his debut novel, <strong>Beyond Reach</strong>.
                 </p>
                 <p className="tracking-tight">
-                  Now based in the USA, Sameer writes not for applause, but for healing both his and others. His work is rooted in self-reflection, humor, fatherhood, motivation, and the ever-evolving pursuit of balance. For Charles, writing is an escape, a mirror, and above all, a legacy.
+                  For Sameer, writing has always been more than just a hobby it’s been a way to process the world and connect with others on a deeper level. Growing up, he found comfort and inspiration in the pages of mystery novels, often captivated by the way a well-crafted story could both challenge the mind and stir the imagination. Authors like Stephen King and Jenna Rose sparked his fascination with suspenseful storytelling and helped shape the dark, gripping narrative voice he brings to his own work.
                 </p>
-                <p className="tracking-tight text-myred font-bold italic">
+
+                {/* <p className="tracking-tight text-myred font-bold italic">
                   "Every time I write, I discover something new," he says, “It’s a conversation with myself before it’s shared with the world.”
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -75,17 +76,18 @@ const Author = () => {
           {/* Remaining Paragraphs Below Image */}
           <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed mt-4">
             <p className="tracking-tight">
-              A proud father, his favorite work to date is Rock On a vibrant, animated picture book he co-created with his daughter, Taji Muthui. “Getting her off the screen to write with me was the biggest win of all,” he beams. His upcoming book Say Your Say as a Man is a heartfelt offering to his son and to men everywhere navigating the journey of manhood.
+              Beyond Reach is the product of Sameer’s love for intricate plots, complex characters, and those deliciously unpredictable twists that leave readers breathless. His writing style is fast-paced and immersive, designed to pull you in and keep you there, turning pages long into the night. Drawing from his previous experience writing twist-filled stories, he has refined a voice that is suspenseful, engaging, and constantly pushing toward the unexpected.
             </p>
             <p className="tracking-tight">
-              Charles doesn’t claim literary awards yet but his authenticity, wit, and wisdom speak louder than any trophy. He believes in doing his best every day, valuing presence over perfection, and honoring relationships with intentionality and gratitude.
+              When he’s not plotting his next mystery, Sameer enjoys playing soccer and volleyball activities that help him stay grounded, clear his mind, and return to his writing desk with renewed focus. For him, sports offer the perfect balance to the often-solitary nature of storytelling.
+            </p>
+
+            <p className="tracking-tight">
+              Sameer hopes Beyond Reach is more than just a thrilling ride for his readers. He wants them to feel the tension, connect with the characters, and stay guessing until the very last page. If you love mystery with heart-pounding suspense and sharp, unexpected turns.
             </p>
             <p className="tracking-tight">
-              With a spirit shaped by personal trials, philosophical reflection, and the love of a powerful partner, Susan Ndolo-Muthui, Charles brings raw truth and deep joy to everything he writes. His words challenge you to grow, laugh, heal, and most of all keep going.
-            </p>
-            <p className="tracking-tight">
-              Because as Dr. D reminds us,<br /> 
-              <span className="text-myred font-bold italic">"your best may not be enough today, but it will always be your best and that’s what matters most."</span>
+              So,<br /> 
+              <span className="text-myred font-bold italic">"Keep an eye on Sameer Hirsi this is only the beginning."</span>
             </p>
             {/* <p className="tracking-tight"></p>
                 <p className="tracking-tight"></p> */}

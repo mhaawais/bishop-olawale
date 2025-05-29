@@ -46,13 +46,14 @@ const AuthorIntro = () => {
           hasAnimated ? 'animate-slideInRight' : 'opacity-0'
         }`}>
           SAMEER HIRSI<br />
-          <span className="text-xl sm:text-2xl lg:text-3xl">Architect of Tomorrow’s Ideas</span>
+          <span className="text-xl sm:text-2xl lg:text-3xl">Author, Writer, Innovater, Thinker</span>
         </h2>
 
         <p className={`text-gray-300 text-base sm:text-lg mt-6 leading-relaxed max-w-prose transition-all duration-700 ${
           hasAnimated ? 'animate-slideInRight' : 'opacity-0'
         }`}>
-          Sameer Hirsi is a trailblazing author and innovator whose stories redefine the boundaries of imagination...  Sameer Misri is more than just a writer he’s a storyteller, motivator, philosopher, and devoted family man. Born with a passion for expression and raised with a mind that questions everything, sameer began writing as a teenager, crafting entire worlds with his imagination. Today, his words resonate with men seeking purpose, children learning through joy, and anyone searching for truth in a noisy world.
+          <b>Sameer Hirsi</b> is a rising voice in the world of mystery and thriller fiction. Born in Somalia and raised in the quiet village of Qoryooley, Sameer now lives in Seattle, Washington, where he continues to write stories that explore the hidden depths of human nature and the unexpected turns life can take. At just 20 years old, and entering his senior year of high school this fall, Sameer is already carving a place for himself in the literary world with his debut novel, <strong>Beyond Reach</strong>.
+        
         </p>
 
         <Link

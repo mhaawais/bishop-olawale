@@ -11,16 +11,12 @@ const Hero = () => {
           <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-myred mb-2">
             OUT NOW —
           </h2>
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
-            BEYOND REACH POINT ZERO.
+          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-3 leading-tight">
+            "Every clue hides a lie. Every ally has a secret. And the truth... is beyond reach."
           </h1>
 
           <p className="text-sm md:text-base text-gray-200 leading-relaxed mb-5 max-w-xl mx-auto md:mx-0">
-            In <strong>Beyond Reach Point Zero</strong>, Sameer Hirsi — known to
-            offers a bold, deeply personal, and unapologetically
-            honest reflection on resilience, growth, and self-belief. This isn’t
-            a sugar-coated self-help guide. It’s a journey through the mess, the
-            mistakes, and the miracles of a life still unfolding.
+            A city haunted by secrets. A team in sophomore chasing shadows through murder scenes, coded messages, and vanishing victims. Each case is more twisted than the last yet somehow, they all lead back to something far more sinister. Beyond Reach isn’t just a series it’s a ticking clock, and the truth is running out of time.
           </p>
 
           <Link

@@ -139,17 +139,12 @@ const Footer = () => {
             SAMEER HIRSI 
           </h2>
           <p className="text-base md:text-lg font-medium mb-4">
-            WRITER, DREAMER, DAD ON A MISSION..
+            MYSTERY AUTHOR, STUDENT, OR STORYTELLER..
           </p>
           <p className="text-sm md:text-base leading-relaxed">
-            Sameer Hirsi is the voice behind some of
-            the most powerful real-life storytelling today. From animated
-            picture books created with his daughter (Beat Your Yesterday), to heartfelt
-            letters to men (Say Your Say as a Man), and now a life-shifting
-            personal manifesto (Beat Your Yesterday), Sameer writes from the
-            soul, and always with purpose.
+            Sameer Hirsi is a Somali-born, Seattle-based mystery writer with a passion for suspense and storytelling. A high school senior, Sameer began writing to explore the world and connect with readers through gripping, twist-filled narratives. Inspired by authors like Stephen King, his debut novel <strong>Beyond Reach</strong> dives into the darker corners of mystery fiction, keeping readers guessing until the very last page.
           </p>
-          <p className="text-sm md:text-base leading-relaxed mt-4">
+          {/* <p className="text-sm md:text-base leading-relaxed mt-4">
             A self-made writer, speaker, and motivator, Sameer turns everyday
             struggles into life lessons that uplift, empower, and challenge you
             to become your best self. His words don’t just inspire they awaken.
@@ -157,7 +152,7 @@ const Footer = () => {
             grounded in family, faith, and the fearless pursuit of legacy.
             Because Sameer doesn’t just write books he writes blueprints for
             becoming unstoppable, unshaken, and unapologetically you.
-          </p>
+          </p> */}
           {/* <p className="text-sm md:text-base leading-relaxed mt-4">
             He lives in the U.S., but his roots, heart, and mission remain grounded in family, faith, and the fearless pursuit of legacy.
             Because Dr. D doesn’t just write books he writes blueprints for becoming unstoppable, unshaken, and unapologetically you.
