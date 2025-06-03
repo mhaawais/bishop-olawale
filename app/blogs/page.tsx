@@ -8,7 +8,7 @@ import BlogsSection from '@/components/blogs';
 
 export const metadata: Metadata = {
    title: "Blogs - Sameer Hirsi",
-   description: "Blogs by Charles Muthui & his daughter Taji Muthui - Read her latest posts on faith, life, and inspiration in Books.",
+   description: "Blogs by Sameer Misri - Read her latest posts on faith, life, and inspiration in Books.",
 };
 
 const Myblog = () => {

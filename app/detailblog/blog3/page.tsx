@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Blog: From Rock On - Taji Muthui reflects on innocence, new beginnings, and fresh perspectives.",
 };
 
-const Blog2 = () => {
+const Blog3 = () => {
   return (
     <section>
       <Header />
@@ -147,9 +147,9 @@ const Blog2 = () => {
 
           <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
             <div className="text-left">
-              <Link href="/detailblog/blog3">
+              <Link href="/detailblog/blog1">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  BEAT YOUR YESTERDAY: &gt;
+                  &lt; BEAT YOUR YESTERDAY:
                   <br />
                   A Wake-Up Call for the Dreamers.
                   <br />
@@ -167,4 +167,4 @@ const Blog2 = () => {
   );
 };
 
-export default Blog2;
+export default Blog3;

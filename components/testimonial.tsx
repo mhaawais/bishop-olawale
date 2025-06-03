@@ -20,7 +20,7 @@ const Testimonial = () => {
 
       {/* Heading */}
       <h2 className="text-3xl sm:text-4xl font-bold text-center text-myred mb-12 tracking-wide font-serif">
-        What Readers Are Saying...
+        Client Reviews...
       </h2>
 
       {/* Content Grid */}

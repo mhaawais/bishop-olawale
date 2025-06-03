@@ -22,7 +22,7 @@ const BlogsSection = () => {
         {/* <p className="mt-2 sm:mt-3 text-sm sm:text-base lg:text-lg text-white max-w-xl flex justify-cente">
           Explore stories that inspire and provoke thought
         </p> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Blog 1 */}
           <div ref={ref}
             className={`blog-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg ${
@@ -53,7 +53,13 @@ const BlogsSection = () => {
               </Link>
             </div>
           </div>
-          {/* Blog 2 */}
+
+          {/* Blog 2 
+           <div ref={ref} className={`blog-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg ${
+              hasAnimated ? "animate-slideInRight" : "opacity-0"
+            } `}
+          >
+          */}
           <div ref={ref} className={`blog-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg ${
            hasAnimated ? "animate-slideInRight" : "opacity-0"
            } `}>
@@ -80,6 +86,40 @@ const BlogsSection = () => {
               </Link>
             </div>
           </div>
+
+
+           {/* Blog 3 */}
+           <div ref={ref}
+            className={`blog-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg ${
+              hasAnimated ? "animate-slideInRight" : "opacity-0"
+            } `}
+          >
+            <Image
+              src="/assets/images/E-book.JPG"
+              alt="Exploring the Future of Technology"
+              width={600}
+              height={400}
+              className="object-contain w-full max-h-48"
+              priority
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">
+                Exploring the Books
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Dive into the latest trends shaping the tech world, from AI
+                innovations to sustainable solutions.
+              </p>
+              <Link
+                href="/detailblog/blog3"
+                className="text-red-600 hover:text-red-800 font-medium"
+              >
+                Read More →
+              </Link>
+            </div>
+          </div>
+
+
         </div>
         <div className="text-center mt-8">
           <Link

@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog - Sameer Hirsi | ",
   description:
-    "Blog: from Beat Your Yesterday - Charles Muthui shares insights on trust, betrayal, and healing.",
+    "Blog: from  - Sameer Misri shares insights on trust, betrayal, and healing.",
 };
 
 const Blog1 = () => {

@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: "Book - Rock On | Taji Muthui", 
-  description: "Book: Rock On - By Taji Muthui daughter of Charles Muthui. Life's lessons through a child's innocent perspective.",
+  title: "Book - Beyond Reach Point Zero | Sameer Hirsi", 
+  description: "Book: Beyond Reach Point Zero - By Taji Muthui daughter of Charles Muthui. Life's lessons through a child's innocent perspective.",
 };
 
 const Book1 = () => {
