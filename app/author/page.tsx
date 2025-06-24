@@ -43,6 +43,7 @@ const Author = () => {
             {/* Image */}
             <div className="w-full lg:w-1/3 flex-shrink-0">
               <video
+
                 src="/assets/images/beyond-video2.mp4"
                 controls
                 autoPlay
