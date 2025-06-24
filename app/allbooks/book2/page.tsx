@@ -70,7 +70,7 @@ const Book2 = () => {
               {/* Centered Button */}
               <div className="w-full flex justify-center pt-6">
                 <Link 
-                  href={""} 
+                  href={"https://a.co/d/faDAqGh"} 
                   className="bg-myred hover:bg-red-700 text-white font-bold py-4 px-10 rounded-md 
                             text-xl md:text-2xl transition-all duration-300 transform hover:scale-105 
                             shadow-lg hover:shadow-red-500/50 text-center min-w-[250px]"
