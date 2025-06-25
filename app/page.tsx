@@ -17,8 +17,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-black">
-      
+    <div className="bg-black">     
       <Header />
       <Hero />
       <Three />
@@ -26,8 +25,7 @@ export default function Home() {
       <ChooseUs />
       <BlogsSection />
       <Testimonial />
-      <Footer /> 
-    
+      <Footer />   
     </div>
   );
 }

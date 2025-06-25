@@ -41,7 +41,7 @@ const Author = () => {
           {/* Image + First Two Paragraphs Side-by-Side */}
           <div className="flex flex-col lg:flex-row gap-10 items-start">
             {/* Image */}
-            <div className="w-full lg:w-1/3 flex-shrink-0">
+            {/* <div className="w-full lg:w-1/3 flex-shrink-0">
               <video
                 src="/assets/images/beyond-video.mp4"
                 controls
@@ -50,6 +50,23 @@ const Author = () => {
                 loop
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
               />
+            </div> */}
+            <div className="w-full lg:w-1/3 flex-shrink-0">
+              <iframe
+                src="https://imagekit.io/player/embed/duutknwsm/beyond-video.mp4?autoplay=1&muted=1&loop=1&controls=0&updatedAt=1750870745564&thumbnail=https%3A%2F%2Fik.imagekit.io%2Fduutknwsm%2Fbeyond-video.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1750870745564"
+                title="ImageKit video player"
+                frameBorder="0"
+                allow="autoplay; fullscreen; encrypted-media; clipboard-write; picture-in-picture"
+                allowFullScreen
+                className="w-[80%] h-[500px] rounded-xl shadow-xl mx-auto"
+              ></iframe>
+              {/* <iframe
+  src="https://ik.imagekit.io/duutknwsm/beyond-video.mp4"
+  title="Video"
+  allow="autoplay; fullscreen"
+  allowFullScreen
+  className="w-[50%] h-[500px] rounded-xl shadow-xl mx-auto"
+/> */}
             </div>
 
             {/* Title + First Paragraphs  drop-shadow-[0_0_20px_theme('colors.myred')] */}
@@ -84,24 +101,24 @@ const Author = () => {
                   his own work.
                 </p>
 
-                <p className="tracking-tight">
-              Beyond Reach is the product of Sameer’s love for intricate plots,
-              complex characters, and those deliciously unpredictable twists
-              that leave readers breathless. His writing style is fast-paced and
-              immersive, designed to pull you in and keep you there, turning
-              pages long into the night. Drawing from his previous experience
-              writing twist-filled stories, he has refined a voice that is
-              suspenseful, engaging, and constantly pushing toward the
-              unexpected.
-            </p>
+                {/* <p className="tracking-tight">
+                  Beyond Reach is the product of Sameer’s love for intricate
+                  plots, complex characters, and those deliciously unpredictable
+                  twists that leave readers breathless. His writing style is
+                  fast-paced and immersive, designed to pull you in and keep you
+                  there, turning pages long into the night. Drawing from his
+                  previous experience writing twist-filled stories, he has
+                  refined a voice that is suspenseful, engaging, and constantly
+                  pushing toward the unexpected.
+                </p> */}
 
-             <p className="tracking-tight">
-              When he’s not plotting his next mystery, Sameer enjoys playing
-              soccer and volleyball activities that help him stay grounded,
-              clear his mind, and return to his writing desk with renewed focus.
-              For him, sports offer the perfect balance to the often-solitary
-              nature of storytelling.
-            </p>
+                {/* <p className="tracking-tight">
+                  When he’s not plotting his next mystery, Sameer enjoys playing
+                  soccer and volleyball activities that help him stay grounded,
+                  clear his mind, and return to his writing desk with renewed
+                  focus. For him, sports offer the perfect balance to the
+                  often-solitary nature of storytelling.
+                </p> */}
 
                 {/* <p className="tracking-tight text-myred font-bold italic">
                   "Every time I write, I discover something new," he says, “It’s a conversation with myself before it’s shared with the world.”
@@ -112,7 +129,7 @@ const Author = () => {
 
           {/* Remaining Paragraphs Below Image */}
           <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed mt-4">
-            {/* <p className="tracking-tight">
+            <p className="tracking-tight">
               Beyond Reach is the product of Sameer’s love for intricate plots,
               complex characters, and those deliciously unpredictable twists
               that leave readers breathless. His writing style is fast-paced and
@@ -121,14 +138,14 @@ const Author = () => {
               writing twist-filled stories, he has refined a voice that is
               suspenseful, engaging, and constantly pushing toward the
               unexpected.
-            </p> */}
-            {/* <p className="tracking-tight">
+            </p>
+            <p className="tracking-tight">
               When he’s not plotting his next mystery, Sameer enjoys playing
               soccer and volleyball activities that help him stay grounded,
               clear his mind, and return to his writing desk with renewed focus.
               For him, sports offer the perfect balance to the often-solitary
               nature of storytelling.
-            </p> */}
+            </p>
 
             <p className="tracking-tight">
               Sameer hopes Beyond Reach is more than just a thrilling ride for
