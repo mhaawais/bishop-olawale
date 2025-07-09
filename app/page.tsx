@@ -5,26 +5,24 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Three from "@/components/three";
 import ChooseUs from "@/components/chooseus";
-import Testimonial from "@/components/testimonial";
-import AuthorIntro from "@/components/about";
-import BlogsSection from "@/components/blogs";
+import Hero2 from "@/components/hero2";
+import Hero3 from "@/components/hero3";
 
 export const metadata: Metadata = {
-  title: "Books By Sameer Hirsi",  
-  description: "Official site for the Beyond Reach Point Zero, Destiny Point or Critical Point books by Sameer Hirsi.",
+  title: "Bishop Olawale Olaofe – Faith, Wisdom & Victory Through God's Word",  
+  description: "Discover life-changing books and teachings by Bishop Olawale Olaofe. From divine healing to financial breakthroughs, marriage restoration, and spiritual growth—explore resources rooted in biblical truth to transform your life and destiny.",
 };
 
 
 export default function Home() {
   return (
-    <div className="bg-black">     
+    <div>     
       <Header />
       <Hero />
       <Three />
-      <AuthorIntro />
       <ChooseUs />
-      <BlogsSection />
-      <Testimonial />
+      <Hero2 />
+      <Hero3 />
       <Footer />   
     </div>
   );

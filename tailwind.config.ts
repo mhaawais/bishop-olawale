@@ -38,7 +38,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        myred: "#DE0713",
+        myred: "#9B0D0E",
         onhover: "#f51307",
       },
     },

@@ -7,195 +7,180 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Author - Sameer Hirsi",
+  title: "Bishop Olawale Olaofe - Presiding Bishop & Author",
   description:
-    "Learn more about Sameer Hirsi, author of 'Beyond Reach Point Zero' and its two more parts, Discover her journey of mission, strength, and purpose.",
+    "Discover the inspiring story of Bishop Olawale Olaofe, Presiding Bishop of HOFFAN. From oil executive to spiritual leader, his journey is one of transformation, faith, and impact.",
 };
 
 const Author = () => {
   return (
     <section>
       <Header />
-      <div className="relative w-full bg-black py-16 md:py-20 lg:py-24">
+
+      <div className="relative w-full bg-white py-6 sm:py-8 md:py-10 lg:py-12">
         <div className="container mx-auto flex flex-col justify-center items-center px-4">
-          <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-white border-t-2 border-b-2 border-myred py-4 mb-8">
+          <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-black border-t-2 border-b-2 border-myred py-2 mb-4">
             AUTHOR
           </h2>
           <div className="flex items-center gap-3">
             <Link href="/">
-              <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200 underline cursor-pointer">
+              <p className="text-lg md:text-xl font-bold text-bl;ack hover:text-myred transition duration-200 underline cursor-pointer">
                 HOME
               </p>
             </Link>
             <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
+            <p className="text-lg md:text-xl font-bold text-black hover:text-myred transition duration-200">
               AUTHOR
             </p>
           </div>
         </div>
       </div>
 
-      {/* About Sameer Section */}
-      <div className="bg-black py-16 px-6 md:px-10 lg:px-20">
-        <div className="max-w-7xl mx-auto flex flex-col gap-10">
-          {/* Image + First Two Paragraphs Side-by-Side */}
+      {/* About Bishop Section */}
+      <div className="bg-black py-20 px-6 md:px-10 lg:px-24">
+        <div className="max-w-7xl mx-auto flex flex-col gap-16">
           <div className="flex flex-col lg:flex-row gap-10 items-start">
-            {/* Image */}
-            {/* <div className="w-full lg:w-1/3 flex-shrink-0">
-              <video
-                src="/assets/images/beyond-video.mp4"
-                controls
-                autoPlay
-                muted
-                loop
-                className="w-full h-auto rounded-lg shadow-lg object-cover"
+            <div className="w-full lg:w-[40%] flex-shrink-0">
+              <Image
+                src="/assets/images/author-2.JPG"
+                alt="Bishop Olawale Olaofe"
+                height={400}
+                width={400}
+                className="w-full h-auto aspect-square object-cover rounded-2xl shadow-2xl"
               />
-            </div> */}
-            <div className="w-full lg:w-1/3 flex-shrink-0">
-              <iframe
-                src="https://imagekit.io/player/embed/duutknwsm/beyond-video.mp4?autoplay=1&muted=1&loop=1&controls=0&updatedAt=1750870745564&thumbnail=https%3A%2F%2Fik.imagekit.io%2Fduutknwsm%2Fbeyond-video.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1750870745564"
-                title="ImageKit video player"
-                frameBorder="0"
-                allow="autoplay; fullscreen; encrypted-media; clipboard-write; picture-in-picture"
-                allowFullScreen
-                className="w-[80%] h-[500px] rounded-xl shadow-xl mx-auto"
-              ></iframe>
-              {/* <iframe
-  src="https://ik.imagekit.io/duutknwsm/beyond-video.mp4"
-  title="Video"
-  allow="autoplay; fullscreen"
-  allowFullScreen
-  className="w-[50%] h-[500px] rounded-xl shadow-xl mx-auto"
-/> */}
             </div>
 
-            {/* Title + First Paragraphs  drop-shadow-[0_0_20px_theme('colors.myred')] */}
-            <div className="w-full lg:w-2/3">
-              <h4 className="text-myred text-xl md:text-2xl font-bold tracking-wide mb-2 uppercase">
-                ABOUT SAMEER ——
+            <div className="w-full lg:w-[60%]">
+              <h4 className="text-myred text-xl md:text-2xl font-semibold tracking-wide mb-2 uppercase">
+                ABOUT BISHOP OLAWALE OLAOFE ——
               </h4>
-              <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-left ">
-                SAMEER HIRSI : A Storyteller, Motivator or a Philosopher
+              <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">
+                A Voice of Fire, Faith, and Harvest
               </h2>
               <div className="text-white text-base md:text-lg space-y-6 leading-relaxed">
-                <p className="tracking-tight">
-                  <b>Sameer Hirsi</b> is a rising voice in the world of mystery
-                  and thriller fiction. Born in Somalia and raised in the quiet
-                  village of Qoryooley, Sameer now lives in Seattle, Washington,
-                  where he continues to write stories that explore the hidden
-                  depths of human nature and the unexpected turns life can take.
-                  At just 20 years old, and entering his senior year of high
-                  school this fall, Sameer is already carving a place for
-                  himself in the literary world with his debut novel,{" "}
-                  <strong>Beyond Reach</strong>.
+                <p>
+                  Bishop Olawale Olaofe is more than a preacher — he is a voice
+                  of spiritual fire in our generation. A former oil company
+                  executive turned presiding bishop, he leads{" "}
+                  <strong>Household of Faith for All Nations (HOFFAN)</strong>{" "}
+                  in Atlanta, Georgia — one of the fastest-growing churches
+                  known for its prophetic depth, vibrant prayer atmosphere, and
+                  undeniable signs and wonders.
                 </p>
-                <p className="tracking-tight">
-                  For Sameer, writing has always been more than just a hobby
-                  it’s been a way to process the world and connect with others
-                  on a deeper level. Growing up, he found comfort and
-                  inspiration in the pages of mystery novels, often captivated
-                  by the way a well-crafted story could both challenge the mind
-                  and stir the imagination. Authors like Stephen King and Jenna
-                  Rose sparked his fascination with suspenseful storytelling and
-                  helped shape the dark, gripping narrative voice he brings to
-                  his own work.
+                <p>
+                  A former Muslim who encountered Christ, Bishop Olaofe was
+                  dramatically called into ministry on May 3, 2002, when he
+                  received a divine instruction:{" "}
+                  <em>“Come and join Me in My harvest...”</em> (Matthew
+                  9:35-37). His response changed everything — he stepped down
+                  from his corporate role and stepped fully into his Kingdom
+                  assignment.
                 </p>
-
-                {/* <p className="tracking-tight">
-                  Beyond Reach is the product of Sameer’s love for intricate
-                  plots, complex characters, and those deliciously unpredictable
-                  twists that leave readers breathless. His writing style is
-                  fast-paced and immersive, designed to pull you in and keep you
-                  there, turning pages long into the night. Drawing from his
-                  previous experience writing twist-filled stories, he has
-                  refined a voice that is suspenseful, engaging, and constantly
-                  pushing toward the unexpected.
-                </p> */}
-
-                {/* <p className="tracking-tight">
-                  When he’s not plotting his next mystery, Sameer enjoys playing
-                  soccer and volleyball activities that help him stay grounded,
-                  clear his mind, and return to his writing desk with renewed
-                  focus. For him, sports offer the perfect balance to the
-                  often-solitary nature of storytelling.
-                </p> */}
-
-                {/* <p className="tracking-tight text-myred font-bold italic">
-                  "Every time I write, I discover something new," he says, “It’s a conversation with myself before it’s shared with the world.”
-                </p> */}
+                <p>
+                  Bishop Olaofe is known for his passionate preaching,
+                  miracle-filled crusades, and depth in the Word. His ministry
+                  carries a unique resurrection anointing — many testify that
+                  lives are transformed just by listening to him. With clarity
+                  and conviction, he teaches kingdom principles, activates
+                  destinies, and raises leaders.
+                </p>
               </div>
             </div>
           </div>
 
-          {/* Remaining Paragraphs Below Image */}
-          <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed mt-4">
-            <p className="tracking-tight">
-              Beyond Reach is the product of Sameer’s love for intricate plots,
-              complex characters, and those deliciously unpredictable twists
-              that leave readers breathless. His writing style is fast-paced and
-              immersive, designed to pull you in and keep you there, turning
-              pages long into the night. Drawing from his previous experience
-              writing twist-filled stories, he has refined a voice that is
-              suspenseful, engaging, and constantly pushing toward the
-              unexpected.
+          <div className="text-white text-base md:text-lg space-y-6 leading-relaxed">
+            <div className="pl-3 border-l-4 border-myred leading-snug space-y-3">
+            <p>
+              A best-selling author, he penned the powerful book{" "}
+              <strong>"Power Pictures"</strong> and multiple prayer and
+              confession manuals that equip believers for victorious living. His
+              messages echo in churches, conferences, and nations — calling the
+              remnant to rise.
             </p>
-            <p className="tracking-tight">
-              When he’s not plotting his next mystery, Sameer enjoys playing
-              soccer and volleyball activities that help him stay grounded,
-              clear his mind, and return to his writing desk with renewed focus.
-              For him, sports offer the perfect balance to the often-solitary
-              nature of storytelling.
+            <p>
+              He is a trained Mechanical Engineer and a lifelong student of the
+              Holy Spirit, having attended multiple Bible schools and leadership
+              programs. But more than academics, it's his intimacy with God that
+              fuels his fire.
             </p>
-
-            <p className="tracking-tight">
-              Sameer hopes Beyond Reach is more than just a thrilling ride for
-              his readers. He wants them to feel the tension, connect with the
-              characters, and stay guessing until the very last page. If you
-              love mystery with heart-pounding suspense and sharp, unexpected
-              turns.
+            </div>
+            <p>
+              At the heart of his ministry stands his wife,{" "}
+              <strong>Reverend (Mrs.) Tinuola Olaofe</strong> — co-pastor,
+              intercessor, and a woman of deep wisdom. A gifted speaker and
+              nurturer, she leads in areas of parenting, relationships, and
+              healing prayer. Her own calling was prophesied over her as a child
+              — today she walks in it with grace and power.
             </p>
-            <p className="tracking-tight">
-              So,
+            <p>
+              Together, they are raising two anointed children,{" "}
+              <strong>Oreoluwa Deborah</strong> and{" "}
+              <strong>Ifeoluwa David</strong>, and building a generational
+              legacy grounded in truth, love, and revival.
+            </p>
+            <p>
+              Bishop Olaofe is not just a spiritual leader; he is a movement.
+              His mission is to equip saints, rebuild broken altars, and usher
+              in global harvest. His presence carries a divine atmosphere that
+              shifts hearts. As many say:
               <br />
-              <span className="text-myred font-bold italic flex justify-center">
-                "Keep an eye on Sameer Hirsi this is only the beginning."
-              </span>
+              <em className="text-myred">
+                "You can’t encounter him and remain the same."
+              </em>
             </p>
-            {/* <p className="tracking-tight"></p>
-                <p className="tracking-tight"></p> */}
+            <p>
+              For invitations, ministry engagements, or mentorship inquiries:
+              <br />
+              📩{" "}
+              <a
+                href="mailto:BishopOlaofe@hoffan.org"
+                className="text-myred underline"
+              >
+                BishopOlaofe@hoffan.org
+              </a>
+              <br />
+              📩{" "}
+              <a
+                href="mailto:ReverendTinu@hoffan.org"
+                className="text-myred underline"
+              >
+                ReverendTinu@hoffan.org
+              </a>
+            </p>
           </div>
         </div>
       </div>
 
-      {/* Writer Gallery Section */}
-      {/* <div className="bg-black py-12 px-6 md:px-10 lg:px-20">
-        <h2 className="text-myred text-3xl md:text-4xl font-bold text-center mb-8">
-          WRITER GALLERY
+      {/* Gallery Section */}
+      <div className="bg-black py-16 px-6 md:px-10 lg:px-24">
+        <h2 className="text-myred text-3xl md:text-4xl font-bold text-center mb-12">
+          MINISTRY GALLERY !
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-5">
           {[
-            "/assets/images/charles-1.jpeg",
-            "/assets/images/charles2.jpeg",
-            "/assets/images/charles3.jpeg",
-            "/assets/images/charles4.jpeg",
-            "/assets/images/charles5.jpeg"
+            "/assets/images/author-4.JPG",
+            "/assets/images/author-3.JPG",
+            "/assets/images/author-9.avif",
+            "/assets/images/author-6.JPG",
+            "/assets/images/author-2.JPG",
+            "/assets/images/author-8.JPG",
           ].map((src, index) => (
-            <div key={index} className="group relative w-full overflow-hidden rounded-lg shadow-lg">
+            <div
+              key={index}
+              className="group relative w-full overflow-hidden rounded-xl shadow-xl"
+            >
               <Image
                 src={src}
-                alt={"Writer"}
+                alt={`Gallery Image ${index + 1}`}
                 width={300}
                 height={300}
-                className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105"
               />
-              {/* Overlay 
-              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-  
-              </div>
+              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" />
             </div>
           ))}
-        </div> 
-      </div>  */}
+        </div>
+      </div>
 
       <Footer />
     </section>

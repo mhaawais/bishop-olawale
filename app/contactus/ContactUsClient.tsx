@@ -27,7 +27,7 @@ const ContactUsClient = () => {
     setStatus("Sending...");
 
     try {
-      const response = await fetch("https://formspree.io/f/xyzevalb", {
+      const response = await fetch("https://formspree.io/f/manjggnq", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -50,78 +50,55 @@ const ContactUsClient = () => {
     <div className="bg-black text-white">
       <Header />
 
-      {/* Top Section: Breadcrumb with Image Background */}
-      <section className="relative w-full py-16 md:py-20 lg:py-24">
-        {/* Background Image with 15% Opacity */}
-        {/* <div
-          className="absolute inset-0 bg-cover bg-center opacity-20 z-0"
-          style={{ backgroundImage: `url(/assets/images/contact1.jpg)` }} // Replace with your image path
-        ></div> */}
-        <div className="container mx-auto flex flex-col justify-center items-center px-4 relative z-10">
-          <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-white border-t-2 border-b-2 border-myred py-4 mb-8">
+      <div className="relative w-full bg-white py-6 sm:py-8 md:py-10 lg:py-12">
+        <div className="container mx-auto flex flex-col justify-center items-center px-4">
+          <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-black border-t-2 border-b-2 border-myred py-2 mb-4">
             CONTACT
           </h2>
-          <div
-            className="flex items-center gap-3"
-          >
+          <div className="flex items-center gap-3">
             <Link href="/">
-              <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200 underline cursor-pointer">
+              <p className="text-lg md:text-xl font-bold text-black hover:text-myred transition duration-200 underline cursor-pointer">
                 HOME
               </p>
             </Link>
             <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
+            <p className="text-lg md:text-xl font-bold text-black hover:text-myred transition duration-200">
               CONTACT
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* Combined Section */}
-      <section className="flex flex-col md:flex-row w-full min-h-screen">
-        {/* Left Section with background and image */}
-        <div className="w-full md:w-1/2 relative flex items-center justify-center md:justify-end bg-black h-[60vh] md:h-auto">
-          {/* <div
-            className="absolute left-0 top-0 bottom-0 w-[70%] bg-cover bg-center z-0"
-            style={{ backgroundImage: `url(/assets/images/contact2.jpg)` }}
-          ></div> */}
-
-          <div className="w-72 h-72 sm:w-[360px] sm:h-[360px] md:w-96 md:h-96 lg:w-[410px] lg:h-[410px] ">
-            {/* Adjusted image sizes for responsiveness and reduced margin mr-2 md:mr-2 mt-12 md:mt-0*/}
+      <section className="flex flex-col lg:flex-row w-full min-h-screen">
+        {/* Left Section */}
+        <div className="w-full lg:w-[35%] relative flex items-center justify-center bg-black py-8 px-6">
+          <div className="w-full max-w-xs sm:max-w-xs md:max-w-sm">
             <Image
-              src="/assets/images/E-book.JPG"
-              alt="Sameer"
-              height={500}
-              width={300}
-              className="rounded-lg shadow-lg object-cover" // Added object-cover for better scaling
+              src="/assets/images/author-5.JPG"
+              alt="Bishop Olawale Olaofe"
+              width={600}
+              height={600}
+              className="rounded-2xl object-cover w-full h-auto shadow-2xl"
               priority
             />
           </div>
         </div>
 
-        {/* Right Side Content */}
-        <div className="w-full md:w-1/2 bg-black flex flex-col justify-center p-6 md:p-8 mt-16 md:mt-6">
-          {/* Reduced padding from p-12 to p-8 on md screens */}
-          <h3 className="text-myred text-lg md:text-xl font-semibold uppercase tracking-wide">
-            ABOUT SAMEER ——
+        {/* Right Section */}
+        <div className="w-full lg:w-[65%] bg-black px-6 py-12 md:px-10 lg:px-16 flex flex-col justify-center">
+          <h3 className="text-myred text-base md:text-lg font-medium uppercase tracking-wider">
+            About Bishop Olawale Olaofe ——
           </h3>
-          <h2
-            className="text-white text-3xl md:text-4xl font-bold leading-tight mt-2"
-            style={{ textShadow: "1px 1px 2px myred" }}
-          >
-            MESSAGE SAMEER HIRSI
+          <h2 className="text-white text-3xl md:text-4xl font-bold mt-2 mb-4">
+            Message Bishop Olawale Olaofe
           </h2>
-          <p className="text-white text-base md:text-lg lg:text-xl mt-6 leading-relaxed mb-8">
-            I would love to hear from you, please drop me a line!
+          <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-8 pl-3 border-l-4 border-myred">
+            I would love to hear from you. Please fill out the form below and I’ll get back to you shortly.
           </p>
 
-          {/* Contact Form */}
           <form onSubmit={handleSubmit} className="space-y-5">
             <div className="flex flex-col">
-              <label
-                htmlFor="name"
-                className="text-xs font-semibold text-gray-300 uppercase mb-2"
-              >
+              <label htmlFor="name" className="text-xs font-semibold text-gray-400 uppercase mb-2">
                 Name
               </label>
               <input
@@ -132,15 +109,12 @@ const ContactUsClient = () => {
                 onChange={handleChange}
                 required
                 placeholder="Your name"
-                className="p-3 border border-gray-600 bg-black text-white rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-400 text-sm"
+                className="p-3 border border-gray-600 bg-black text-white rounded focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-500"
               />
             </div>
 
             <div className="flex flex-col">
-              <label
-                htmlFor="email"
-                className="text-xs font-semibold text-gray-300 uppercase mb-2"
-              >
+              <label htmlFor="email" className="text-xs font-semibold text-gray-400 uppercase mb-2">
                 Email
               </label>
               <input
@@ -150,16 +124,13 @@ const ContactUsClient = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="Your email address"
-                className="p-3 border border-gray-600 bg-black text-white rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-400 text-sm"
+                placeholder="Your email"
+                className="p-3 border border-gray-600 bg-black text-white rounded focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-500"
               />
             </div>
 
             <div className="flex flex-col">
-              <label
-                htmlFor="message"
-                className="text-xs font-semibold text-gray-300 uppercase mb-2"
-              >
+              <label htmlFor="message" className="text-xs font-semibold text-gray-400 uppercase mb-2">
                 Message
               </label>
               <textarea
@@ -169,38 +140,29 @@ const ContactUsClient = () => {
                 onChange={handleChange}
                 required
                 placeholder="Your message"
-                rows={5}
-                className="p-3 border border-gray-600 bg-black text-white rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-400 text-sm resize-y"
+                rows={6}
+                className="p-3 border border-gray-600 bg-black text-white rounded focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-500 resize-y"
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-myred text-white py-3 rounded text-sm font-medium hover:opacity-90 transition-colors"
+              className="w-full bg-myred text-white py-3 rounded text-sm font-medium hover:opacity-90 transition"
             >
-              Send message
+              Send Message
             </button>
           </form>
 
           {status && (
-            <p
-              className={`mt-5 text-sm ${
-                status.includes("successfully")
-                  ? "text-green-400"
-                  : "text-red-500"
-              }`}
-            >
+            <p className={`mt-5 text-sm ${status.includes("successfully") ? "text-green-400" : "text-red-500"}`}>
               {status}
             </p>
           )}
 
           <div className="mt-8 text-sm text-gray-400">
-            Or email me at{" "}
-            <a
-              href="mailto:info@sameerhirsi.com"
-              className="text-myred hover:underline"
-            >
-              info@sameerhirsi.com
+            Or email me directly at:{" "}
+            <a href="mailto:BishopOlaofe@hoffan.org" className="text-myred underline">
+              BishopOlaofe@hoffan.org
             </a>
           </div>
         </div>
@@ -210,4 +172,5 @@ const ContactUsClient = () => {
     </div>
   );
 };
+
 export default ContactUsClient;

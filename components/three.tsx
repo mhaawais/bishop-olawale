@@ -1,77 +1,63 @@
 "use client";
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
 
-//import { Metadata } from 'next';
-// export const metadata: Metadata = {
-//   title: "Books Collection - Marry Pat Uzoma",
-//   description: "Books by Mary Pat Mbamah Uzoma - Explore her inspiring collection, including 'Misplaced Trust and the Power of Forgiveness.",
-// };
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { PiBooks } from "react-icons/pi";
 
 const Three = () => {
   const books = [
-    { src: '/assets/images/E-book.JPG', link: '/allbooks/book1' },
-    { src: '/assets/images/ebook-2.jpg', link: '/allbooks/book2' },
-    { src: '/assets/images/ebook-2.jpg', link: '/allbooks/book3' },
-    // { src: '/assets/images/building1.jpg', link: '/allbooks/book4' },
+    { src: "/assets/images/1.png", link: "/allbooks/book1" },
+    { src: "/assets/images/2.png", link: "/allbooks/book2" },
+    { src: "/assets/images/3.png", link: "/allbooks/book3" },
+    { src: "/assets/images/4.png", link: "/allbooks/book4" },
+    { src: "/assets/images/5.png", link: "/allbooks/book5" },
+    { src: "/assets/images/6.png", link: "/allbooks/book6" },
+    { src: "/assets/images/7.png", link: "/allbooks/book7" },
+    { src: "/assets/images/8.png", link: "/allbooks/book8" },
+    { src: "/assets/images/9.png", link: "/allbooks/book9" },
+    { src: "/assets/images/10.png", link: "/allbooks/book10" },
+    { src: "/assets/images/11.png", link: "/allbooks/book11" },
+    { src: "/assets/images/12.png", link: "/allbooks/book12" },
+    { src: "/assets/images/13.png", link: "/allbooks/book13" },
+    { src: "/assets/images/14.png", link: "/allbooks/book14" },
+    { src: "/assets/images/15.png", link: "/allbooks/book15" },
+    { src: "/assets/images/16.png", link: "/allbooks/book16" },
+    { src: "/assets/images/17.png", link: "/allbooks/book17" },
+    { src: "/assets/images/18.png", link: "/allbooks/book18" },
+    { src: "/assets/images/19.png", link: "/allbooks/book19" },
   ];
 
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const [hasAnimated, setHasAnimated] = useState(false);
-
-  useEffect(() => {
-    if (inView) setHasAnimated(true);
-  }, [inView]);
-
   return (
-    <section className="bg-black py-3 px-8">
-      <div ref={ref} className={`max-w-5xl mx-auto -mt-4 -mb-4 ${
-            hasAnimated ? 'animate-slideIn' : 'opacity-0'
-          }`}>
-        <h2 className="text-white text-4xl font-bold my-2 border-b-4 border-myred pb-3 w-fit mx-auto">
-          BOOKS
+    <section className="bg-gradient-to-b from-[#7c1c1f] via-[#943639] to-[#7c1c1f] py-12 px-4 sm:px-6 md:px-10 lg:px-16">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-12 flex justify-center items-center gap-3">
+          <span className="inline-flex min-w-[1.5rem]">
+            <PiBooks className="text-3xl sm:text-4xl md:text-5xl" />
+          </span>
+          Explore My Books
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
+
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-10">
           {books.map((book, index) => (
             <div
               key={index}
-              className="relative aspect-[3/4] flex flex-col items-center"
+              className="w-[45%] sm:w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] flex flex-col items-center"
             >
-
-             <Link href={book.link} className="relative w-full aspect-[3/4] block">
-                <div className="relative w-full h-full transition-transform duration-500 ease-in-out transform hover:scale-110 hover:-translate-y-2 shadow-white/60 perspective-300 group"> {/* Added perspective and group */}
-                 <Image
-                   src={book.src}
-                   alt={`Book ${index + 1}`}
-                   fill
-                   className="object-cover transition-transform duration-500 ease-in-out group-hover:rotateY-2 group-hover:scale-105"
-                   style={{ transform: 'perspective(1000px) rotateY(2deg)' }}
-                  />
-                </div>
-             </Link>
-
-               {/*<Link href={book.link} className="relative w-full aspect-[3/4] block">
-                <div className="relative w-full h-full transition-transform duration-500 ease-in-out transform hover:scale-115 hover:-translate-y-3 border-2 border-myred rounded-lg shadow-lg shadow-white/60 
-                  sm:scale-100 scale-90">
+              <Link href={book.link} className="block w-full aspect-[3/4] relative group">
+                <div className="relative w-full h-full rounded-xl overflow-hidden shadow-lg bg-white transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-2">
                   <Image
                     src={book.src}
                     alt={`Book ${index + 1}`}
                     fill
-                    className="object-cover rounded-lg"
-                    style={{ transform: 'perspective(1000px) rotateY(2deg)' }}
+                    className="object-cover"
                   />
                 </div>
-              </Link>*/}
-
+              </Link>
 
               <Link href={book.link}>
-                <button
-                  className="bg-myred text-white py-3 px-8 rounded-full text-base font-medium cursor-pointer mt-10 transition-all duration-300 ease-in-out hover:bg-[#b32d37] hover:scale-110 hover:ring-1 hover:ring-white shadow-sm shadow-white/20"
-                >
-                  Read more
+                <button className="mt-4 bg-white text-[#7c1c1f] font-semibold px-5 py-2 rounded-full shadow-md hover:bg-[#b32d37] hover:text-white transition">
+                  Read More
                 </button>
               </Link>
             </div>
@@ -81,4 +67,5 @@ const Three = () => {
     </section>
   );
 };
+
 export default Three;
