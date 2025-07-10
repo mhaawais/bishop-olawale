@@ -24,6 +24,12 @@ const ContactUsClient = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!formData.email.includes("@")) {
+      setStatus("Please enter a valid email address.");
+      return;
+    }
+
     setStatus("Sending...");
 
     try {
@@ -93,12 +99,16 @@ const ContactUsClient = () => {
             Message Bishop Olawale Olaofe
           </h2>
           <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-8 pl-3 border-l-4 border-myred">
-            I would love to hear from you. Please fill out the form below and I’ll get back to you shortly.
+            I would love to hear from you. Please fill out the form below and
+            I’ll get back to you shortly.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div className="flex flex-col">
-              <label htmlFor="name" className="text-xs font-semibold text-gray-400 uppercase mb-2">
+              <label
+                htmlFor="name"
+                className="text-xs font-semibold text-gray-400 uppercase mb-2"
+              >
                 Name
               </label>
               <input
@@ -114,7 +124,10 @@ const ContactUsClient = () => {
             </div>
 
             <div className="flex flex-col">
-              <label htmlFor="email" className="text-xs font-semibold text-gray-400 uppercase mb-2">
+              <label
+                htmlFor="email"
+                className="text-xs font-semibold text-gray-400 uppercase mb-2"
+              >
                 Email
               </label>
               <input
@@ -130,7 +143,10 @@ const ContactUsClient = () => {
             </div>
 
             <div className="flex flex-col">
-              <label htmlFor="message" className="text-xs font-semibold text-gray-400 uppercase mb-2">
+              <label
+                htmlFor="message"
+                className="text-xs font-semibold text-gray-400 uppercase mb-2"
+              >
                 Message
               </label>
               <textarea
@@ -145,23 +161,45 @@ const ContactUsClient = () => {
               />
             </div>
 
-            <button
+            {/* <button
               type="submit"
               className="w-full bg-myred text-white py-3 rounded text-sm font-medium hover:opacity-90 transition"
             >
               Send Message
+            </button> */}
+
+            <button
+              type="submit"
+              disabled={status === "Sending..."}
+              className={`w-full bg-myred text-white py-3 rounded text-sm font-medium transition ${
+                status === "Sending..."
+                  ? "opacity-50 cursor-not-allowed"
+                  : "hover:opacity-90"
+              }`}
+            >
+              {status === "Sending..." ? "Sending..." : "Send Message"}
             </button>
           </form>
 
           {status && (
-            <p className={`mt-5 text-sm ${status.includes("successfully") ? "text-green-400" : "text-red-500"}`}>
+            <p
+              role="alert"
+              className={`mt-5 text-sm ${
+                status.includes("successfully")
+                  ? "text-green-400"
+                  : "text-red-500"
+              }`}
+            >
               {status}
             </p>
           )}
 
           <div className="mt-8 text-sm text-gray-400">
             Or email me directly at:{" "}
-            <a href="mailto:BishopOlaofe@hoffan.org" className="text-myred underline">
+            <a
+              href="mailto:BishopOlaofe@hoffan.org"
+              className="text-myred underline"
+            >
               BishopOlaofe@hoffan.org
             </a>
           </div>

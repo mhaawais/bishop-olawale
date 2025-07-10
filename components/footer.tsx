@@ -12,6 +12,9 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const [subscriberEmail, setSubscriberEmail] = useState("");
+  const [subscribeStatus, setSubscribeStatus] = useState("");
+
   const [isOpen, setIsOpen] = useState(false);
   const closeTimer = useRef<NodeJS.Timeout | null>(null);
 
@@ -22,6 +25,40 @@ const Footer = () => {
       if (closeTimer.current) clearTimeout(closeTimer.current);
     };
   }, []);
+
+  const handleSubscribe = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (!subscriberEmail.includes("@")) {
+      setSubscribeStatus("Please enter a valid email address.");
+      return;
+    }
+
+    setSubscribeStatus("Subscribing...");
+
+    try {
+      const response = await fetch("https://formspree.io/f/manjggnq", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: "Newsletter Subscriber",
+          email: subscriberEmail,
+          message: "Please subscribe me to the newsletter.",
+        }),
+      });
+
+      if (response.ok) {
+        setSubscribeStatus("Subscribed successfully!");
+        setSubscriberEmail("");
+      } else {
+        setSubscribeStatus("Failed to subscribe. Please try again.");
+      }
+    } catch (error) {
+      setSubscribeStatus("An error occurred. Please try again later.");
+    }
+  };
 
   return (
     <footer className="bg-gradient-to-b from-[#7c1c1f] via-[#943639] to-[#7c1c1f] text-white py-12 md:py-16 transition-all duration-500">
@@ -185,11 +222,17 @@ const Footer = () => {
           <p className="mb-4 text-white text-lg font-semibold">
             Subscribe to our Newsletter
           </p>
-          <form className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <form
+            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            onSubmit={handleSubscribe}
+          >
             <input
               type="email"
+              value={subscriberEmail}
+              onChange={(e) => setSubscriberEmail(e.target.value)}
               placeholder="Enter your email"
               className="w-full px-4 py-2 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
+              required
             />
             <button
               type="submit"
@@ -198,6 +241,16 @@ const Footer = () => {
               Subscribe
             </button>
           </form>
+
+          {subscribeStatus && (
+            <p className="mt-2 text-sm text-white">
+              {subscribeStatus.includes("success") ? (
+                <span className="text-green-400">{subscribeStatus}</span>
+              ) : (
+                <span className="text-red-400">{subscribeStatus}</span>
+              )}
+            </p>
+          )}
         </div>
 
         {/* Final Divider */}
