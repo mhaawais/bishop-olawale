@@ -15,7 +15,7 @@ const ChooseUs = () => {
     {
       emoji: "🌍",
       title: "Cultural & Spiritual Depth",
-      desc: "Grounded in African roots, guided by divine truth."
+      desc: "Grounded in Faith, guided by divine truth."
     },
     {
       emoji: "💡",

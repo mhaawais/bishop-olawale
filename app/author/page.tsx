@@ -106,7 +106,7 @@ const Author = () => {
             </div>
             <p>
               At the heart of his ministry stands his wife,{" "}
-              <strong>Reverend (Mrs.) Tinuola Olaofe</strong> — co-pastor,
+              <strong>Bishop-Elect (Mrs.) Tinuola Olaofe</strong> — co-pastor,
               intercessor, and a woman of deep wisdom. A gifted speaker and
               nurturer, she leads in areas of parenting, relationships, and
               healing prayer. Her own calling was prophesied over her as a child

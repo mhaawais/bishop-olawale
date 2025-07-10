@@ -29,9 +29,9 @@ const Header: React.FC = () => {
       {/* Desktop Header */}
       <div className="hidden lg:flex items-center justify-between px-20 py-1 h-[120px]">
         {/* Logo */}
-        <Link href="/" className="relative w-[160px] h-[110px]">
+        <Link href="/" className="relative w-[180px] h-[130px]">
           <Image
-            src="/assets/logo/4.png"
+            src="/assets/logo/6.png"
             alt="Logo"
             fill
             className="object-contain"
@@ -70,9 +70,9 @@ const Header: React.FC = () => {
 
       {/* Mobile Header */}
       <div className="flex lg:hidden items-center justify-between px-7 h-[100px]">
-        <Link href="/" className="relative w-[120px] h-[80px]">
+        <Link href="/" className="relative w-[140px] h-[100px]">
           <Image
-            src="/assets/logo/4.png"
+            src="/assets/logo/6.png"
             alt="Logo"
             fill
             className="object-contain"
@@ -90,7 +90,7 @@ const Header: React.FC = () => {
           <div className="flex items-center justify-between px-7 py-3">
             <Link href="/" className="relative w-[120px] h-[120px]">
               <Image
-                src="/assets/logo/4.png"
+                src="/assets/logo/6.png"
                 alt="Logo"
                 fill
                 className="object-contain"

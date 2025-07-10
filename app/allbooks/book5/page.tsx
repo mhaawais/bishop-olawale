@@ -7,9 +7,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "7 Ideas That Can Revolutionize Your World | Bishop Olawale Olaofe",
+  title: "7 Things To Do When Disappointments Happen | Bishop Olawale Olaofe",
   description:
-    "In 7 Ideas That Can Revolutionize Your World, Bishop Olawale Olaofe shares powerful, timeless principles that can reorient your life, unlock your imagination, and lead to lasting transformation. A must-read guide for breakthrough and personal growth.",
+    "Discover seven powerful principles to recover from loss, pain, and setbacks in 7 Things To Do When Disappointments Happen by Bishop Olawale Olaofe. A quick, faith-filled guide to healing and personal restoration.",
 };
 
 const Book5 = () => {
@@ -42,7 +42,7 @@ const Book5 = () => {
       <div className="w-full bg-black px-6 md:px-10 lg:px-20 py-10 md:py-16">
         <div className="container mx-auto">
           <h2 className="font-extrabold text-2xl md:text-4xl lg:text-5xl uppercase text-myred text-center pb-10 underline decoration-2 hover:text-white transition duration-300">
-            7 Ideas That Can Revolutionize Your World
+            7 Things To Do When Disappointments Happen
           </h2>
 
           <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16">
@@ -50,7 +50,7 @@ const Book5 = () => {
             <div className="w-full lg:w-1/2 flex justify-center">
               <Link
                 href={
-                  "https://www.amazon.com/dp/B07921GW5S"
+                  "https://www.amazon.com/Things-Do-When-Disappointments-Happen-ebook/dp/B07978SZG8/ref=sr_1_6?crid=3GRS15JEO6TUT&dib=eyJ2IjoiMSJ9.dm3aCkjOqSCDOKzAjO_B0P7sdQZyFUkIzyE-Pj4AwCc2tmzUzzzsrs0-90CnKXiPt7qYF2JUCGEE7fjMOibSVnHL9yyzJrHMLRJYx1Ksp5JyhVmTKwx4fT1l_BFJeYWnwgCo5oH5mtUhxenjV5-ccO7qrbm-N6pxMFXCrv0HgdRBpoZTb5ddb25dsqc6B-Dqqp93Ni6jxsM4kbuA7HX7UaW_KFzMvd6Dw-Cugcswnjo.tBlxbrNs91hoZ_gCJDVSALj8hmEvZ3MyohAc99ZlSVA&dib_tag=se&keywords=bishop+Olawale+Olaofe&qid=1752170194&sprefix=bishop+olawale+olaofe+%2Caps%2C79&sr=8-6"
                 }
                 className="bg-black p-3 rounded-md w-full max-w-[300px] border border-white shadow-xl transition duration-300 ease-in-out transform hover:scale-105"
               >
@@ -69,37 +69,37 @@ const Book5 = () => {
             <div className="w-full lg:w-1/2 text-white space-y-6 flex flex-col items-start">
 
               <p className="text-base md:text-lg leading-relaxed">
-                In <span className="italic">7 Ideas That Can Revolutionize Your World</span>,
-                Bishop Olawale Olaofe distills life-changing wisdom into seven concise, practical concepts that carry the power to redirect your destiny. These are not just motivational thoughts—they are divine nuggets of truth designed to reorient your thinking, awaken your potential, and launch you into a higher level of purpose.
+                In <span className="italic">7 Things To Do When Disappointments Happen</span>,
+                Bishop Olawale Olaofe delivers a clear, compassionate guide for navigating life’s toughest moments. With spiritual depth and practical insight, he outlines seven powerful steps—nuggets of wisdom—that help you rise above pain, regain focus, and re-ignite your purpose.
               </p>
 
-               <p className="text-base md:text-lg leading-relaxed italic pl-3 border-l-4 border-myred">
-                Unlock a powerful shift in your mindset and life through seven timeless, transformative principles.
+              <p className="text-base md:text-lg leading-relaxed">
+                This book speaks directly to the heart of loss—whether it's a broken relationship, job setback, crushed dream, or financial collapse—and offers a roadmap for healing and restoration. These seven principles are more than coping mechanisms; they’re tools for transformation, grounded in faith and designed to revive hope and momentum.
               </p>
 
               <p className="italic text-base md:text-lg leading-relaxed">
-                Whether you're seeking clarity, direction, personal growth, or spiritual alignment, this book offers a map for transformation. Each idea is a gateway to possibility—a mental and spiritual tool you can activate immediately. With reflection, faith, and imagination, these ideas will:
+                If you've felt delayed, discouraged, or defeated, this quick yet profound read will equip you to:
               </p>
 
               <p>
-                <span className="text-myred font-extrabold">•</span> Challenge limiting beliefs
+                <span className="text-myred font-extrabold">•</span> Process disappointment with wisdom
                 <br />
-                <span className="text-myred font-extrabold">•</span> Expand your vision
+                <span className="text-myred font-extrabold">•</span> Restore your faith and motivation
                 <br />
-                <span className="text-myred font-extrabold">•</span> Inspire purposeful action
+                <span className="text-myred font-extrabold">•</span> Take actionable steps toward emotional and spiritual recovery
                 <br />
-                <span className="text-myred font-extrabold">•</span> Lead to meaningful, lasting change
+                <span className="text-myred font-extrabold">•</span> Reclaim your dreams and move forward with clarity and strength
               </p>
 
               <p>
-                These are more than principles—they are keys to a new you. When you engage them with intention, your world will begin to shift. Prepare to be revolutionized from the inside out.
+                These are your keys to a comeback. Let each chapter inspire you to stand again, dream again, and win again—regardless of what life has thrown at you.
               </p>
 
               {/* Get Book Button */}
 
               <div className="w-full flex justify-center items-center pt-6">
                 <Link
-                  href="https://www.amazon.com/dp/B07921GW5S"
+                  href="https://www.amazon.com/Things-Do-When-Disappointments-Happen-ebook/dp/B07978SZG8/ref=sr_1_6?crid=3GRS15JEO6TUT&dib=eyJ2IjoiMSJ9.dm3aCkjOqSCDOKzAjO_B0P7sdQZyFUkIzyE-Pj4AwCc2tmzUzzzsrs0-90CnKXiPt7qYF2JUCGEE7fjMOibSVnHL9yyzJrHMLRJYx1Ksp5JyhVmTKwx4fT1l_BFJeYWnwgCo5oH5mtUhxenjV5-ccO7qrbm-N6pxMFXCrv0HgdRBpoZTb5ddb25dsqc6B-Dqqp93Ni6jxsM4kbuA7HX7UaW_KFzMvd6Dw-Cugcswnjo.tBlxbrNs91hoZ_gCJDVSALj8hmEvZ3MyohAc99ZlSVA&dib_tag=se&keywords=bishop+Olawale+Olaofe&qid=1752170194&sprefix=bishop+olawale+olaofe+%2Caps%2C79&sr=8-6"
                   target="_blank"
                   className="inline-block bg-myred hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg md:text-xl transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-red-400/50 text-center"
                 >

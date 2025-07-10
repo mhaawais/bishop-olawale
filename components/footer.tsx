@@ -32,7 +32,7 @@ const Footer = () => {
           className="bg-white p-4 rounded-2xl shadow-2xl mb-4 transform hover:scale-105 transition duration-300 hover:shadow-[#D4AF37]/40"
         >
           <Image
-            src="/assets/logo/3.png"
+            src="/assets/logo/5.png"
             alt="Logo"
             width={140}
             height={140}
@@ -136,7 +136,7 @@ const Footer = () => {
             lives transformed through prayer and the Word.
           </p>
           <p className="text-sm md:text-base leading-relaxed text-white/90">
-            Alongside his wife, Reverend (Mrs.) Tinuola Olaofe—a woman of
+            Alongside his wife, Bishop-Elect (Mrs.) Tinuola Olaofe—a woman of
             prayer, grace, and strong family values—they have become a powerful
             ministry team. Together, they are equipping believers, strengthening
             marriages, and raising the next generation in faith, with countless
@@ -156,25 +156,25 @@ const Footer = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex items-center justify-center space-x-6 mt-6">
-          <Link
+        <div className="flex items-center justify-center space-x-4 mt-6">
+          {/* <Link
             href="https://facebook.com"
             target="_blank"
-            className="text-white hover:text-[#D4AF37] transition text-xl"
+            className="hover:text-white text-[#D4AF37] transition text-xl"
           >
             <FaFacebookF />
-          </Link>
+          </Link> */}
           <Link
-            href="https://youtube.com"
+            href="https://www.youtube.com/@householdoffaithfan"
             target="_blank"
-            className="text-white hover:text-[#D4AF37] transition text-xl"
+            className="hover:text-white text-[#D4AF37] transition text-xl"
           >
             <FaYoutube />
           </Link>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/bishopolaofe/#"
             target="_blank"
-            className="text-white hover:text-[#D4AF37] transition text-xl"
+            className="hover:text-white text-[#D4AF37] transition text-xl"
           >
             <FaInstagram />
           </Link>

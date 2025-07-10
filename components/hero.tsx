@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-base md:text-lg text-gray-800 leading-relaxed max-w-xl font-medium mx-auto md:mx-0 mb-3 mt-4 pl-3 border-l-4 border-myred">
-            Bishop Olawale Olaofe, once a devoted Muslim, encountered a life-changing transformation that led him to Christ and a divine calling. Now the Presiding Bishop of Household of Faith for All Nations in Smyrna, Georgia, he ministers globally with resurrection anointing, apostolic grace, and evangelistic fire.
+            Bishop Olawale Olaofe, once a devoted Muslim, encountered a life-changing transformation that led him to Christ and a divine calling. Now the Presiding Bishop of Household of Faith for All Nations in Marietta, Georgia, he ministers globally with resurrection anointing, apostolic grace, and evangelistic fire.
           </p>
 
           {/* <p className="text-base text-gray-700">
