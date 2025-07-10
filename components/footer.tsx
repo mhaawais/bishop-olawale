@@ -156,25 +156,25 @@ const Footer = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex items-center justify-center space-x-4 mt-6">
-          {/* <Link
-            href="https://facebook.com"
+        <div className="flex items-center justify-center space-x-6 mt-6">
+          <Link
+            href="https://www.facebook.com/share/16uLCn5FUr/?mibextid=wwXIfr"
             target="_blank"
-            className="hover:text-white text-[#D4AF37] transition text-xl"
+            className="hover:text-white text-[#D4AF37] transition text-2xl"
           >
             <FaFacebookF />
-          </Link> */}
+          </Link>
           <Link
             href="https://www.youtube.com/@householdoffaithfan"
             target="_blank"
-            className="hover:text-white text-[#D4AF37] transition text-xl"
+            className="hover:text-white text-[#D4AF37] transition text-2xl"
           >
             <FaYoutube />
           </Link>
           <Link
             href="https://www.instagram.com/bishopolaofe/#"
             target="_blank"
-            className="hover:text-white text-[#D4AF37] transition text-xl"
+            className="hover:text-white text-[#D4AF37] transition text-2xl"
           >
             <FaInstagram />
           </Link>
