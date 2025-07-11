@@ -12,7 +12,7 @@ const Hero = () => {
             BISHOP OLAWALE OLAOFE —
           </h2>
 
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug text-myred">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold leading-snug text-myred ">
             "From the mosque to the altar,<br /> From death to divine power, And the world… will never be the same."
           </h1>
 

@@ -37,7 +37,7 @@ const Footer = () => {
     setSubscribeStatus("Subscribing...");
 
     try {
-      const response = await fetch("https://formspree.io/f/manjggnq", {
+      const response = await fetch("https://formspree.io/f/mzzgnwdg", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
