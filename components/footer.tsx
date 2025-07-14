@@ -217,6 +217,39 @@ const Footer = () => {
           </Link>
         </div>
 
+        <div className="mt-6 flex flex-col justify-center items-center text-center">
+          <p className="text-lg font-medium mb-4">
+            Navigate to my other websites below:
+          </p>
+
+          <Link
+            href="https://www.hoffan.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-[#D4AF37] hover:text-blue-600 transition"
+          >
+            www.hoffan.org
+          </Link>
+
+          <Link
+            href="https://www.fmtvlive.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-[#D4AF37] hover:text-blue-600 transition mt-2"
+          >
+            www.fmtvlive.com
+          </Link>
+
+          <Link
+            href="https://www.faithandmiracles.tv"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-[#D4AF37] hover:text-blue-600 transition mt-2"
+          >
+            www.faithandmiracles.tv
+          </Link>
+        </div>
+
         {/* Newsletter Input */}
         <div className="mt-10 w-full max-w-lg text-center px-4">
           <p className="mb-4 text-white text-lg font-semibold">
