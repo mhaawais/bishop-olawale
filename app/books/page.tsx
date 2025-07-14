@@ -6,6 +6,7 @@ import { FaChevronRight } from "react-icons/fa";
 import Link from "next/link";
 import Hero2 from "@/components/hero2";
 import type { Metadata } from "next";
+import Wife2 from "@/components/wife2";
 
 export const metadata: Metadata = {
   title: "Books by Bishop Olawale Olaofe",
@@ -38,6 +39,7 @@ const Books = () => {
       </div>
 
       <All />
+      <Wife2 />
       <Hero2 />
       <Footer />
     </section>

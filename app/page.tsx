@@ -7,6 +7,7 @@ import Three from "@/components/three";
 import ChooseUs from "@/components/chooseus";
 import Hero2 from "@/components/hero2";
 import Hero3 from "@/components/hero3";
+import Wife from "@/components/wife";
 
 export const metadata: Metadata = {
   title: "Bishop Olawale Olaofe – Faith, Wisdom & Victory Through God's Word",  
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Three />
+      <Wife />
       <ChooseUs />
       <Hero2 />
       <Hero3 />

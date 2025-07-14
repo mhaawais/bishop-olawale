@@ -90,36 +90,63 @@ const Author = () => {
 
           <div className="text-white text-base md:text-lg space-y-6 leading-relaxed">
             <div className="pl-3 border-l-4 border-myred leading-snug space-y-3">
-            <p>
-              A best-selling author, he penned the powerful book{" "}
-              <strong>"Power Pictures"</strong> and multiple prayer and
-              confession manuals that equip believers for victorious living. His
-              messages echo in churches, conferences, and nations — calling the
-              remnant to rise.
-            </p>
-            <p>
-              He is a trained Mechanical Engineer and a lifelong student of the
-              Holy Spirit, having attended multiple Bible schools and leadership
-              programs. But more than academics, it's his intimacy with God that
-              fuels his fire.
-            </p>
+              <p>
+                A best-selling author, he penned the powerful book{" "}
+                <strong>"Power Pictures"</strong> and multiple prayer and
+                confession manuals that equip believers for victorious living.
+                His messages echo in churches, conferences, and nations —
+                calling the remnant to rise.
+              </p>
+              <p>
+                He is a trained Mechanical Engineer and a lifelong student of
+                the Holy Spirit, having attended multiple Bible schools and
+                leadership programs. But more than academics, it's his intimacy
+                with God that fuels his fire.
+              </p>
             </div>
+
+            <div className="py-10 px-4">
+              {/* Section Heading */}
+              <h1 className="font-bold text-2xl text-myred text-center md:text-left mb-6 hover:underline">
+                "More Than a Wife — A Pillar in Ministry"
+              </h1>
+
+              {/* Content Layout */}
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10">
+                {/* Image Section */}
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/assets/images/author-wife.PNG"
+                    alt="Wife Image"
+                    width={200}
+                    height={200}
+                    className="rounded-lg"
+                  />
+                </div>
+
+                {/* Text Section */}
+                <div className="text-center md:text-left max-w-xl">
+                  <p className="mt-2">
+                    At the heart of his ministry stands his wife,{" "}
+                    <strong>Bishop-Elect (Mrs.) Tinuola Olaofe</strong> —
+                    co-pastor, intercessor, and a woman of deep wisdom. A gifted
+                    speaker and nurturer, she leads in areas of parenting,
+                    relationships, and healing prayer. Her own calling was
+                    prophesied over her as a child — today she walks in it with
+                    grace and power.
+                  </p>
+                  <p className="mt-4 pb-6">
+                    Together, they are raising two anointed children,{" "}
+                    <strong>Oreoluwa Deborah</strong> and{" "}
+                    <strong>Ifeoluwa David</strong>, and building a generational
+                    legacy grounded in truth, love, and revival.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <p>
-              At the heart of his ministry stands his wife,{" "}
-              <strong>Bishop-Elect (Mrs.) Tinuola Olaofe</strong> — co-pastor,
-              intercessor, and a woman of deep wisdom. A gifted speaker and
-              nurturer, she leads in areas of parenting, relationships, and
-              healing prayer. Her own calling was prophesied over her as a child
-              — today she walks in it with grace and power.
-            </p>
-            <p>
-              Together, they are raising two anointed children,{" "}
-              <strong>Oreoluwa Deborah</strong> and{" "}
-              <strong>Ifeoluwa David</strong>, and building a generational
-              legacy grounded in truth, love, and revival.
-            </p>
-            <p>
-              Bishop Olaofe is not just a spiritual leader; he is a movement.
+              <strong>Bishop Olaofe</strong> is not just a spiritual leader; he is a movement.
               His mission is to equip saints, rebuild broken altars, and usher
               in global harvest. His presence carries a divine atmosphere that
               shifts hearts. As many say:

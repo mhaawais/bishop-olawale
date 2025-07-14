@@ -37,7 +37,7 @@ const ChooseUs = () => {
   return (
     <section className="bg-gradient-to-b from-[#fff] via-[#fbecec] to-[#fdfcfc] w-full py-16 px-6 sm:px-10 lg:px-24 text-center">
       <h2 className="text-[#721b1e] text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-5 md:mb-10 tracking-tight leading-snug">
-        Why You Must Read My Book
+        Why You Must Read Our Books
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
