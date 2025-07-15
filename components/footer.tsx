@@ -192,6 +192,12 @@ const Footer = () => {
           </a>
         </div>
 
+        <div>
+          <a href="app.js">
+            
+          </a>
+        </div>
+
         {/* Social Icons */}
         <div className="flex items-center justify-center space-x-6 mt-6">
           <Link
@@ -224,27 +230,24 @@ const Footer = () => {
 
           <Link
             href="https://www.hoffan.org"
-            target="_blank"
             rel="noopener noreferrer"
-            className="underline text-[#D4AF37] hover:text-blue-600 transition"
+            className="underline text-[#D4AF37] hover:text-blue-600 visited::text-purple-700 transition"
           >
             www.hoffan.org
           </Link>
 
           <Link
             href="https://www.fmtvlive.com"
-            target="_blank"
             rel="noopener noreferrer"
-            className="underline text-[#D4AF37] hover:text-blue-600 transition mt-2"
+            className="underline text-[#D4AF37] hover:text-blue-600 visited::text-purple-700 transition mt-2"
           >
             www.fmtvlive.com
           </Link>
 
           <Link
             href="https://www.faithandmiracles.tv"
-            target="_blank"
             rel="noopener noreferrer"
-            className="underline text-[#D4AF37] hover:text-blue-600 transition mt-2"
+            className="underline text-[#D4AF37] hover:text-blue-600 visited::text-purple-700 transition mt-2"
           >
             www.faithandmiracles.tv
           </Link>
