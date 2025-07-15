@@ -194,7 +194,7 @@ const Footer = () => {
 
         <div>
           <a href="app.js">
-            
+
           </a>
         </div>
 
@@ -231,6 +231,7 @@ const Footer = () => {
           <Link
             href="https://www.hoffan.org"
             rel="noopener noreferrer"
+            target="_blank"
             className="underline text-[#D4AF37] hover:text-blue-600 visited::text-purple-700 transition"
           >
             www.hoffan.org
@@ -239,6 +240,7 @@ const Footer = () => {
           <Link
             href="https://www.fmtvlive.com"
             rel="noopener noreferrer"
+            target="_blank"
             className="underline text-[#D4AF37] hover:text-blue-600 visited::text-purple-700 transition mt-2"
           >
             www.fmtvlive.com
@@ -247,6 +249,7 @@ const Footer = () => {
           <Link
             href="https://www.faithandmiracles.tv"
             rel="noopener noreferrer"
+            target="_blank"
             className="underline text-[#D4AF37] hover:text-blue-600 visited::text-purple-700 transition mt-2"
           >
             www.faithandmiracles.tv
