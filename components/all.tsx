@@ -7,6 +7,10 @@ import { PiBooks } from "react-icons/pi";
 
 const All = () => {
   const books = [
+    { src: "/assets/images/24.png", link: "/allbooks/book24" },
+    { src: "/assets/images/25.png", link: "/allbooks/book25" },
+    { src: "/assets/images/26.png", link: "/allbooks/book26" },
+    { src: "/assets/images/23.png", link: "/allbooks/book23" },
     { src: "/assets/images/1.png", link: "/allbooks/book1" },
     { src: "/assets/images/2.png", link: "/allbooks/book2" },
     { src: "/assets/images/3.png", link: "/allbooks/book3" },

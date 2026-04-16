@@ -32,7 +32,7 @@ const Book22 = () => {
             </Link>
             <FaChevronRight className="text-myred" />
             <span className="hover:text-myred transition duration-200">
-              BOOK-III
+              BOOK-XXII
             </span>
           </div>
         </div>
