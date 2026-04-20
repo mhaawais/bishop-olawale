@@ -7,6 +7,7 @@ import { PiBooks } from "react-icons/pi";
 
 const Three = () => {
   const books = [
+    { src: "/assets/images/27.jpg", link: "/allbooks/book27" },
     { src: "/assets/images/24.png", link: "/allbooks/book24" },
     { src: "/assets/images/25.png", link: "/allbooks/book25" },
     { src: "/assets/images/26.png", link: "/allbooks/book26" },
